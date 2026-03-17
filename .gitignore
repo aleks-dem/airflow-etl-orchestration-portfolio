@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+.env
+utils/config.yaml
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pip-tools-cache/
+build/
+
+# Airflow runtime artifacts
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+logs/
+plugins/__pycache__/
+
+# Local secrets and credentials
+*.pem
+*.key
+*.p12
+*.json.key
+service-account*.json

@@ -1,0 +1,7 @@
+{
+  "external_system": {
+    "base_url": "https://api.example.com",
+    "client_id": "replace-with-client-id",
+    "client_secret": "replace-with-client-secret"
+  }
+}

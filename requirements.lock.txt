@@ -1,0 +1,14 @@
+# Baseline lock file for Python 3.11 runtime.
+# Refresh in a Python 3.11 environment with:
+# python -m piptools compile --no-header --strip-extras --output-file requirements.lock.txt requirements.in
+clickhouse-connect==0.7.8
+cryptography==44.0.1
+exchangelib==5.4.2
+google-api-python-client==2.169.0
+google-auth==2.39.0
+numpy==1.26.4
+openpyxl==3.1.2
+pandas==2.2.2
+PyYAML==6.0.2
+requests==2.31.0
+xlsxwriter==3.2.0

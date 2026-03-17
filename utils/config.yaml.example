@@ -1,0 +1,4 @@
+encrypt_key: "replace-with-64-hex-characters"
+encrypt_iv: "replace-with-32-hex-characters"
+work_item_tracker_api_token: "replace-with-work-item-tracker-token"
+team_chat_token: "replace-with-team-chat-token"
