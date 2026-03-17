@@ -1,10 +1,15 @@
+import sys
 from pathlib import Path
 
 from airflow.models import DagBag
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 
 def _load_dag_bag() -> DagBag:
-    dag_folder = str(Path(__file__).resolve().parents[2] / "dags")
+    dag_folder = str(PROJECT_ROOT / "dags")
     return DagBag(dag_folder=dag_folder, include_examples=False)
 
 

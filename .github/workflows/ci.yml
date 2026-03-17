@@ -35,6 +35,7 @@ jobs:
       AIRFLOW_VERSION: '2.9.3'
       PYTHON_VERSION: '3.11'
       AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+      PYTHONPATH: ${{ github.workspace }}
 
     steps:
       - name: Checkout
